@@ -1,9 +1,9 @@
-import { Common } from './paypal.common';
+import { Common } from './paypal-checkout.common';
 import * as app from "tns-core-modules/application";
 
 declare const com: any;
 
-export class Paypal extends Common {
+export class PaypalCheckout extends Common {
 
     paypalRequest(options: PaypalOptions): Promise<any> {
         return new Promise(function (resolve, reject) {

@@ -1,12 +1,12 @@
 # PayPal Checkout ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png)
 
 ## Screenshot
-![Screenshot Android](https://res.cloudinary.com/dem02bcqj/image/upload/v1526497294/Screenshot_2018-05-16-13-58-00.png)
+<img alt="iOS" src="https://res.cloudinary.com/dem02bcqj/image/upload/v1526497294/Screenshot_2018-05-16-13-58-00.png" width="250">
 
 ## Installation
 
 ```javascript
-tns plugin add nativescript-paypal
+tns plugin add nativescript-paypal-checkout
 ```
 
 ## Usage
@@ -14,11 +14,11 @@ tns plugin add nativescript-paypal
 In the demo you will find a test token to test quickly
 
 ```javascript
-import { Paypal, PaypalOptions } from 'nativescript-paypal';
+import { PaypalCheckout, PaypalOptions } from 'nativescript-paypal-checkout';
 
 private paypalCheckout: Paypal;
 
-this.paypalCheckout = new Paypal();
+this.paypalCheckout = new PaypalCheckout();
 
 let options: PaypalOptions = {
 		token: "TOKEN", // The token is obtained from the server
