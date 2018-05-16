@@ -38,6 +38,8 @@ this.paypalCheckout.paypalRequest(options).then(
 
 ## Others
 
+Create token Server-Side : https://developers.braintreepayments.com/start/hello-server/php#generate-a-client-token
+
 More references: https://developers.braintreepayments.com/guides/paypal/checkout-with-paypal/android/v2
 
 Server-Side Implementation: https://developers.braintreepayments.com/guides/paypal/server-side/php
