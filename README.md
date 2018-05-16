@@ -16,7 +16,7 @@ In the demo you will find a test token to test quickly
 ```javascript
 import { PaypalCheckout, PaypalOptions } from 'nativescript-paypal-checkout';
 
-private paypalCheckout: Paypal;
+private paypalCheckout: PaypalCheckout;
 
 this.paypalCheckout = new PaypalCheckout();
 
