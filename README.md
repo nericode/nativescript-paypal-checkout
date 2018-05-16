@@ -1,7 +1,7 @@
 # PayPal Checkout ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png)
 
 ## Screenshot
-![Screenshot Android](https://res.cloudinary.com/dem02bcqj/image/upload/v1526497294/Screenshot_2018-05-16-13-58-00.png)
+<img alt="iOS" src="https://res.cloudinary.com/dem02bcqj/image/upload/v1526497294/Screenshot_2018-05-16-13-58-00.png" width="250">
 
 ## Installation
 
