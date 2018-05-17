@@ -1,13 +1,12 @@
 {
     "name": "nativescript-paypal-checkout",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "PayPal checkout with Braintree - NativeScript plugin.",
     "main": "paypal-checkout",
     "typings": "index.d.ts",
     "nativescript": {
         "platforms": {
-            "android": "4.0.0",
-            "ios": "4.0.0"
+            "android": "4.0.0"
         }
     },
     "scripts": {
@@ -31,8 +30,7 @@
     "keywords": [
         "NativeScript",
         "JavaScript",
-        "Android",
-        "iOS"
+        "Android"
     ],
     "author": {
         "name": "Alan Neri",

@@ -3,6 +3,10 @@
 ## Screenshot
 <img alt="iOS" src="https://res.cloudinary.com/dem02bcqj/image/upload/v1526497294/Screenshot_2018-05-16-13-58-00.png" width="250">
 
+## Support
+
+Support only Android.
+
 ## Installation
 
 ```javascript
@@ -21,17 +25,17 @@ private paypalCheckout: PaypalCheckout;
 this.paypalCheckout = new PaypalCheckout();
 
 let options: PaypalOptions = {
-		token: "TOKEN", // The token is obtained from the server
-		amount: "10",
-		currencyCode: "USD"
+	token: "TOKEN", // The token is obtained from the server
+	amount: "10",
+	currencyCode: "USD"
 };
 
 this.paypalCheckout.paypalRequest(options).then(
-		(nonce) => {
-				console.log("Token nonce: " + nonce);
-		}, (error) => {
-				console.log(error);
-		}
+	(nonce) => {
+		console.log("Token nonce: " + nonce);
+	}, (error) => {
+		console.log(error);
+	}
 );
 
 ```
