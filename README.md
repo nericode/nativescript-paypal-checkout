@@ -1,9 +1,8 @@
 # PayPal Checkout ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png)
 
 ## Screenshot
-<img alt="Android" src="https://res.cloudinary.com/dem02bcqj/image/upload/v1526497294/Screenshot_2018-05-16-13-58-00.png" width="250">
 
-<img alt="Android" src="https://res.cloudinary.com/dem02bcqj/image/upload/v1526571724/paypal_2.png" width="250">
+<img alt="Android" src="https://res.cloudinary.com/dem02bcqj/image/upload/v1526572004/paypal.png" width="550">
 
 ## Support
 
