@@ -16,7 +16,10 @@ export class PaypalCheckout extends Common {
                reject("Braintree created error: " + error);
             }
 
-            let request = new com.braintreepayments.api.models.PayPalRequest(options.amount).currencyCode(options.currencyCode);
+            let request = new com.braintreepayments.api.models.PayPalRequest(options.amount)
+                            .currencyCode(options.currencyCode)
+                            .intent(com.braintreepayments.api.models.PayPalRequest.INTENT_AUTHORIZE);
+                            
             com.braintreepayments.api.PayPal.requestOneTimePayment(braintree, request);
 
             braintree.addListener(new com.braintreepayments.api.interfaces.PaymentMethodNonceCreatedListener({
