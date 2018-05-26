@@ -1,4 +1,4 @@
-# PayPal Checkout ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png)
+# PayPal Checkout ![apple](https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-32.png) ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png)
 
 ## Screenshot
 
@@ -6,7 +6,7 @@
 
 ## Support
 
-Support only Android.
+Support Android & iOS.
 
 ## Installation
 
@@ -48,6 +48,12 @@ Create token Server-Side : https://developers.braintreepayments.com/start/hello-
 More references: https://developers.braintreepayments.com/guides/paypal/checkout-with-paypal/android/v2
 
 Server-Side Implementation: https://developers.braintreepayments.com/guides/paypal/server-side/php
+
+## Thanks
+
+Thanks to @jibon57 the configurations for the plugin
+
+Settings app ios: https://github.com/jibon57/nativescript-braintree
 
 ## License
 
