@@ -19,7 +19,7 @@ export class PaypalCheckout extends Common {
             payPalDriver.requestOneTimePaymentCompletion(request, function(tokenizedPayPalAccount, error) {
                 if (tokenizedPayPalAccount) {
                     resolve(tokenizedPayPalAccount.nonce);
-                }else if (error) {
+                } else if (error) {
                     reject(error);
                 } else {
                     reject("Buyer canceled payment approval");

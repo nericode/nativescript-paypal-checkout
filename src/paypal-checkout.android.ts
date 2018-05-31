@@ -29,6 +29,13 @@ export class PaypalCheckout extends Common {
                 })
             );
 
+            braintree.addListener(new com.braintreepayments.api.interfaces.BraintreeCancelListener({
+                    onCancel: function (requestCode) {
+                        reject("Buyer canceled payment approval");
+                    }
+                })
+            );
+
             braintree.addListener(new com.braintreepayments.api.interfaces.BraintreeErrorListener({
                     onError: function(error) {
                         reject(error);
