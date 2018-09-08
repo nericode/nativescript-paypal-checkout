@@ -1,6 +1,6 @@
 {
     "name": "nativescript-paypal-checkout",
-    "version": "1.2.0",
+    "version": "2.1.1",
     "description": "PayPal checkout with Braintree - NativeScript plugin.",
     "main": "paypal-checkout",
     "typings": "index.d.ts",
