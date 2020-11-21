@@ -4,7 +4,9 @@ import * as app from "tns-core-modules/application";
 declare const com: any;
 
 export class PaypalCheckout extends Common {
-
+    constructor(){
+        super();
+    }
     paypalRequest(options: PaypalOptions): Promise<any> {
         return new Promise(function (resolve, reject) {
             let braintree = null;
