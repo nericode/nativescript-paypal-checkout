@@ -3,7 +3,9 @@ import { Common } from './paypal-checkout.common';
 declare const BTAPIClient: any, BTPayPalDriver: any, BTPayPalRequest: any;
 
 export class PaypalCheckout extends Common {
-
+    constructor(){
+        super();
+    }
     paypalRequest(options: PaypalOptions): Promise<any> {
         return new Promise(function (resolve, reject) {
             var context = this;
